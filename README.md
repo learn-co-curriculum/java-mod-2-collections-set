@@ -85,11 +85,11 @@ items in the `HashSet`.
 
 Here are the key methods of the `HashSet` class:
 
-| Method                 | Return Type | Description                                         |
-|------------------------|-------------|-----------------------------------------------------|
-| `add(Type value)`      | boolean     | Adds an item to a set                               |
-| `remove(Type value)`   | boolean     | Removes an item from a set                          |
-| `clear()`              | void        | Removes all items from a set                        |
-| `size()`               | int         | Gets the current size of the set                    |
-| `contains(Type value)` | boolean     | Checks to see if a set contains a specific item     |
-| `isEmpty()`            | boolean     | Checks to see if a list is empty or has a size of 0 |
+| Method                   | Return Type | Description                                         |
+|--------------------------|-------------|-----------------------------------------------------|
+| `add(Element item)`      | boolean     | Adds an item to a set                               |
+| `remove(Element item)`   | boolean     | Removes an item from a set                          |
+| `clear()`                | void        | Removes all items from a set                        |
+| `size()`                 | int         | Gets the current size of the set                    |
+| `contains(Element item)` | boolean     | Checks to see if a set contains a specific item     |
+| `isEmpty()`              | boolean     | Checks to see if a list is empty or has a size of 0 |
